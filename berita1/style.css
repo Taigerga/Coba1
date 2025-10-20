@@ -1,0 +1,51 @@
+/* style.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.language-switcher {
+    margin-left: auto;
+}
+
+.news-table {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.news-table th {
+    background-color: #343a40;
+    color: white;
+    font-weight: 600;
+}
+
+.news-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.welcome-message {
+    background-color: #e9ecef;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    font-size: 1.1rem;
+}
+
+.file-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.file-link:hover {
+    text-decoration: underline;
+}
+
+.btn-language {
+    margin: 0 5px;
+}
